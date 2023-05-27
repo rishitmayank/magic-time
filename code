@@ -1,0 +1,9 @@
+import datetime
+
+
+today = datetime.date.today()
+difference = datetime.timedelta(days=14)
+
+newDate = today + difference
+
+print(newDate)
